@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'appdb',
-			'username'  => 'root',
-			'password'  => 'password',
+			'host'      => '192.168.33.10',
+			'database'  => 'proj1',
+			'username'  => 'ales',
+			'password'  => 'ales',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -65,10 +65,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
+			'host'     => '192.168.33.10',
 			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'username' => 'vagrant',
+			'password' => 'vagrant',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
